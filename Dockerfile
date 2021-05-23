@@ -1,5 +1,5 @@
 FROM openjdk:8-alpine
-#We are checking the Git Webhooks now
+#We are checking the Git Webhooks now and we are checking again 
 # Required for starting application up.
 RUN apk update && apk add /bin/sh
 
